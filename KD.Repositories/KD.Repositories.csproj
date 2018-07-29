@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>https://github.com/Sejoslaw/KD.Repositories</Copyright>
+    <PackageProjectUrl>https://github.com/Sejoslaw/KD.Repositories</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Sejoslaw/KD.Repositories</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/Sejoslaw/KD.Repositories</PackageLicenseUrl>
+    <Authors>Krzysztof Dobrzyński</Authors>
+    <Company>Krzysztof Dobrzyński</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Databases\" />
+  </ItemGroup>
+
+</Project>
